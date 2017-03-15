@@ -19,6 +19,7 @@ var Barcode = React.createClass({
     value: React.PropTypes.string.isRequired,
     renderer: React.PropTypes.string,
     format: React.PropTypes.string,
+    flat: React.PropTypes.bool,
     width: React.PropTypes.number,
     height: React.PropTypes.number,
     displayValue: React.PropTypes.bool,
@@ -40,6 +41,7 @@ var Barcode = React.createClass({
   getDefaultProps: function() {
     return {
       format: 'CODE128',
+      flat: false,
       renderer: 'svg',
       width: 2,
       height: 100,
