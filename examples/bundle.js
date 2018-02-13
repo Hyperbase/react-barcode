@@ -86,7 +86,7 @@ var Barcode = createClass({
     value: PropTypes.string.isRequired,
     renderer: PropTypes.string,
     format: PropTypes.string,
-    flat: PropTypes.flat,
+    flat: PropTypes.bool,
     width: PropTypes.number,
     height: PropTypes.number,
     displayValue: PropTypes.bool,
