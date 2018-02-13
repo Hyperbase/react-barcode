@@ -5,6 +5,13 @@ Preview: http://kciter.github.io/react-barcode/
 A `<Barcode/>` component for use with React.<br>
 This library wrapped [JsBarcode](https://github.com/lindell/JsBarcode).
 
+## Support
+If you like this open source, you can sponsor it. :smile:
+```
+Litecoin: LZSFLGDLe1pBxQB7v54kEcobYnu1uAR9U6
+Bitcoin: 1Hrauu2sPczma53gpYU4Y2kap5Hi6K3Ma3
+```
+
 ## Installation
 ```
 npm install react-barcode
